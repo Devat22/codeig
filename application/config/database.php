@@ -72,10 +72,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $active_group = 'default';
 $query_builder = TRUE;
-
+/*just change*/
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '192.168.33.30',
+	'hostname' => 'localhost',
 	'username' => 'ci_user',
 	'password' => 'ci_password',
 	'database' => 'ci_database',
